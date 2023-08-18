@@ -20,7 +20,7 @@ while True:
     for (x, y, w, h) in pedestrians:
         cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 255), 2)
 
-    cv2.imshow('Car Detector', frame)
+    cv2.imshow('Pedestrian Detector', frame)
 
     cv2.waitKey(1)
 
